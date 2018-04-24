@@ -49,7 +49,6 @@ Optionally make a **examples** subdirectory to place the sample app.
 
 Be aware that the library will only be visible after **restarting** all instances of the Arduino IDE. 
 
-
 ### Coding Arduino sketch and upload to the board
 
 * Open **ArduinoDHTSensor.ino**, build and upload to Arduino 
