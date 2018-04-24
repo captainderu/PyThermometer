@@ -24,7 +24,17 @@
 ```
 ![ArduinoDHT11](./img/arduino-dht11-layout.jpg)
 
-## Arduino sketch  
+## Arduino Software
+
+The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software. 
+
+https://www.arduino.cc/en/Main/Software
+
+* Install the Arduino Software (IDE) on Windows PCs https://www.arduino.cc/en/Guide/Windows
+
+* Install the Arduino Software (IDE) on Linux https://www.arduino.cc/en/Guide/Linux
+
+### Arduino sketch  
 
 * Open **ArduinoDHTSensor.ino**, build and upload to Arduino 
 
@@ -35,7 +45,9 @@
 *  PyQt4, PySerial, PythonQwt, Tornado
 
 ## PyQt4 Package
- 
+
+### Windows
+
 * Goto  [Unofficial Windows Binaries for Python Extension Packages page](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
 * Download the suitable release (distributed as a “wheel” archive) series that matches your Windows and Python versione. In the filename, the digits after “cp” indicate the Python version, e.g.
@@ -50,7 +62,13 @@ is the installer  of PyQt4-4.11.4 for 64-bit Python 3.5 and windows.
 * From an administrative command prompt, install the downloaded wheel using pip.
 ```bash       
   >pip install  PyQt4-4.11.4-cp35-cp35m-win_amd64.whl
-```  
+```
+
+### Debian/Ubuntu
+
+```bash       
+  $sudo apt install python3-pyqt4
+```
 
 ## PyQtArduinoDHT11
 
