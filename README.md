@@ -24,17 +24,19 @@
 ```
 ![ArduinoDHT11](./img/arduino-dht11-layout.jpg)
 
-## Arduino Software
+## Arduino Programming
 
 The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software. 
 
 https://www.arduino.cc/en/Main/Software
 
-* Install the Arduino Software (IDE) on Windows PCs https://www.arduino.cc/en/Guide/Windows
+### Install the Arduino Software (IDE)
 
-* Install the Arduino Software (IDE) on Linux https://www.arduino.cc/en/Guide/Linux
+* Windows https://www.arduino.cc/en/Guide/Windows
 
-### Arduino sketch  
+* Linux https://www.arduino.cc/en/Guide/Linux
+
+### Coding Arduino sketch and upload to the board
 
 * Open **ArduinoDHTSensor.ino**, build and upload to Arduino 
 
