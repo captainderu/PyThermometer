@@ -36,6 +36,20 @@ https://www.arduino.cc/en/Main/Software
 
 * Linux https://www.arduino.cc/en/Guide/Linux
 
+### The DHT11 library for Arduino
+
+http://playground.arduino.cc/Main/DHT11Lib
+
+
+https://github.com/RobTillaart/Arduino/tree/master/libraries/DHTlib
+
+To use the library, make a **folder** in your **SKETCHBOOKPATH\libaries** with the name **DHT11** and put the .h and .cpp there. 
+
+Optionally make a **examples** subdirectory to place the sample app. 
+
+Be aware that the library will only be visible after **restarting** all instances of the Arduino IDE. 
+
+
 ### Coding Arduino sketch and upload to the board
 
 * Open **ArduinoDHTSensor.ino**, build and upload to Arduino 
