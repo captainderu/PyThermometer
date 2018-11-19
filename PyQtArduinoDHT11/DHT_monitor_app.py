@@ -25,9 +25,11 @@ import os
 import csv
 import time
 
-import qwt as Qwt
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
+
+import PyQt4.Qwt5 as Qwt
+#import qwt as Qwt
 
 from DHT_monitor_thread import ComMonitorThread
 from DHT_globals import *

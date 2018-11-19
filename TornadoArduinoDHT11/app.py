@@ -79,8 +79,7 @@ if __name__ == "__main__":
     # tornado.ioloop.PeriodicCallback(callback, callback_time, io_loop=None)
     # The callback is called every callback_time milliseconds.
     # Note that the timeout is given in milliseconds,
-    scheduler = tornado.ioloop.PeriodicCallback(
-        checkSerial, 2000, io_loop=mainLoop)
+    scheduler = tornado.ioloop.PeriodicCallback(checkSerial, 2000)
 
     scheduler.start()
     mainLoop.start()
